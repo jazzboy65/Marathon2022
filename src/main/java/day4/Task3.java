@@ -8,8 +8,8 @@ public class Task3 {
         int[][] arr = new int[12][8];
         int sumMax = 0, sum = 0, count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (sum > sumMax) {
-                sumMax += sum;
+            if (sum >= sumMax) {
+                sumMax = sum;
                 count = i;
             }
             sum = 0;

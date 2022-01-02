@@ -1,5 +1,6 @@
 package day4;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -9,29 +10,29 @@ public class Task1 {
         int x = sc.nextInt();
         int[] arr = new int[x];
         Random rand = new Random();
-        int y = 0;
         int moreEight = 0;
         int equalsOne = 0;
         int even = 0;
         int notEven = 0;
         int sum = 0;
-        for (int num : arr) {
-            y = rand.nextInt(10);
+        for (int i = 0;i < x;i++) {
+            arr[i] = rand.nextInt(10);
 
-            sum += y;
-            if (y > 8) {
+            sum += arr[i];
+            if (arr[i] > 8) {
                 moreEight++;
             }
-            if (y == 1) {
+            if (arr[i] == 1) {
                 equalsOne++;
             }
-            if (y % 2 == 0) {
+            if (arr[i] % 2 == 0) {
                 even++;
             }
-            if (y % 2 != 0) {
+            if (arr[i] % 2 != 0) {
                 notEven++;
             }
         }
+        System.out.println(Arrays.toString(arr));
         System.out.println("Длина массива: " + x);
         System.out.println("Количество числе больше 8: " + moreEight);
         System.out.println("Количество чисел равных 1: " + equalsOne);
