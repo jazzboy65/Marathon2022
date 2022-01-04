@@ -1,20 +1,23 @@
 package day6;
 
-class Car {
+public class Car {
     private String modelCar;
     private String colourOfCar;
-    private int yearOfCar;
+    private int year;
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 
     public Car() {
         this.modelCar = "Введите модель машины";
         this.colourOfCar = "Введите цвет машины";
-        this.yearOfCar = 0;
     }
 
-    public Car(String modelCar, String colourOfCar, int yearOfCar) {
+    public Car(String modelCar, String colourOfCar, int year) {
         this.modelCar = modelCar;
         this.colourOfCar = colourOfCar;
-        this.yearOfCar = yearOfCar;
+        this.year = year;
     }
 
     public String getModelCar() {
@@ -33,25 +36,25 @@ class Car {
         this.colourOfCar = colourOfCar;
     }
 
-    public int getYearOfCar() {
-        return yearOfCar;
+    public int getYear() {
+        return year;
     }
 
-    void info() {
-        System.out.print("Этот автомобиль ");
+    public void info() {
+        System.out.println("Это автомобиль");
     }
 
-    int yearDifference(int inputYear) {
+    public int yearDifference(int inputYear) {
         if(inputYear < 0) System.out.println("Введите корректный год");
-        if (inputYear > 0) {
-            inputYear = inputYear - this.yearOfCar;
+        else  {
+            inputYear = this.year - inputYear;
             System.out.print(inputYear);
         }
         return inputYear;
     }
 
     public void setYearOfCar(int yearOfCar) {
-        this.yearOfCar = yearOfCar;
+        this.year = yearOfCar;
     }
     void carInfoModel() {
         System.out.println("Модель машины: " + this.getModelCar());
@@ -60,7 +63,7 @@ class Car {
         System.out.println("Цвет машины: " + this.getColourOfCar());
     }
     void carInfoYear() {
-        System.out.println("Год машины: " + this.getYearOfCar());
+        System.out.println("Год машины: " + this.getYear());
     }
 }
 

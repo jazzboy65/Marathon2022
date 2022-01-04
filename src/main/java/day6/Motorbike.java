@@ -1,7 +1,7 @@
 package day6;
 
 
-class Motorbike {
+public class Motorbike {
     private final String MODEL;
     private final String COLOUR;
     private final int YEAR;
@@ -28,14 +28,14 @@ class Motorbike {
         System.out.println("Модель мотоцикла: " + this.getModel() + "\nЦвет мотоцикла: " + this.getColour() + "\nГод выпуска мотоцикла: " + this.getYear());
     }
 
-    void info() {
-        System.out.print("Этот мотоцикл ");
+    public void info() {
+        System.out.println("Это мотоцикл");
     }
 
-    int yearDifference(int inputYear) {
+    public int yearDifference(int inputYear) {
         if(inputYear < 0) System.out.println("Введите корректный год");
         if (inputYear > 0) {
-            inputYear = inputYear - this.YEAR;
+            inputYear = this.YEAR - inputYear;
             System.out.print(inputYear);
         }
         return inputYear;
