@@ -9,11 +9,8 @@ public class Airplane {
 
     @Override
     public String toString() {
-        return "Изготовитель: " + this.manufacturer +
-                ", год выпуска: " + this.year +
-                ", длина: " + this.length +
-                ", вес: " + this.weight +
-                ", количество топлива в баке: " + this.fuel;
+        return "Изготовитель: " + this.manufacturer + ", год выпуска: " + this.year + ", длина: "
+                + this.length + ", вес: " + this.weight + ", количество топлива в баке: " + this.fuel;
     }
 
     public Airplane(String manufacturer, int year, int length, int weight) {
@@ -48,7 +45,7 @@ public class Airplane {
         return fuel;
     }
 
-    public void info1() {
+    public void info() {
         System.out.println("Изготовитель: " + this.manufacturer + ", год выпуска: " + this.year + ", длина: "
                 + this.length + ", вес: " + this.weight + ", количество топлива в баке: " + this.fuel);
     }
