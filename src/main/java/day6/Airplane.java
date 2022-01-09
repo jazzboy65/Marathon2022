@@ -45,7 +45,6 @@ public class Airplane {
     }
 
     public void fillUp(int n) {
-        if (n < 0) System.out.println("Введите положительное число");
-        if (n >= 0) fuel += n;
+        fuel +=n;
     }
 }

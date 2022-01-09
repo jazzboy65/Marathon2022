@@ -10,9 +10,7 @@ public class Task2 {
             System.out.println("Некорректный ввод");
         }
         for (int i = a; i < b; i++) {
-            if (i % 10 == 0) {
-                continue;
-            } else if (i % 5 == 0 && i != a && i != b) {
+            if ((i % 5 == 0 && i != a && i % 10 != 0)) {
                 System.out.print(i + " ");
             }
         }

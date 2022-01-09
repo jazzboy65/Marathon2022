@@ -17,18 +17,6 @@ class Car{
     private String colourOfCar;
     private int yearOfCar;
 
-    public Car() {
-        this.modelCar = "Введите модель машины";
-        this.colourOfCar = "Введите цвет машины";
-        this.yearOfCar = 0;
-    }
-
-    public Car(String modelCar, String colourOfCar, int yearOfCar) {
-        this.modelCar = modelCar;
-        this.colourOfCar = colourOfCar;
-        this.yearOfCar = yearOfCar;
-    }
-
     public String getModelCar() {
         return modelCar;
     }

@@ -6,22 +6,19 @@ public class Player {
     private static final int MAX_STAMINA = 100;
     private static final int MIN_STAMINA = 0;
     private static int countPlayers;
-    private boolean active;
+
+    public static int getCountPlayers() {
+        return countPlayers;
+    }
 
     public Player(int stamina) {
         this.stamina = stamina;
-        countPlayers++;
+        if(countPlayers < 6) countPlayers++;
     }
 
 
     public int getStamina() {
         return stamina;
-    }
-
-    public static int getCountPlayers() {
-        if (countPlayers > 6) countPlayers = 6;
-        if (countPlayers <= 0) countPlayers = 0;
-        return countPlayers;
     }
 
     public void run() {

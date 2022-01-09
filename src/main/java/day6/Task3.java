@@ -6,28 +6,25 @@ public class Task3 {
     public static void main(String[] args) {
         Teacher t = new Teacher("Мария","История");
         Student s = new Student("Иван");
-        t.evaluate(s.getName());
-        t.evaluate("Пётр");
+        t.evaluate(s);
     }
 }
 
 
 class Teacher {
-    private String name;
-    private String object;
+    private final String name;
+    private final String object;
 
     public Teacher(String name, String object) {
         this.name = name;
         this.object = object;
     }
 
-     String evaluate(String nameOfStudent) {
+     public void evaluate(Student student) {
+        String grade;
         Random rand = new Random();
-        String grade = "";
-        switch (rand.nextInt(5)) {
-            case 5:
-                grade = "отлично";
-                break;
+        int random = rand.nextInt((4) +2);
+        switch (random) {
             case 4:
                 grade = "хорошо";
                 break;
@@ -38,13 +35,10 @@ class Teacher {
                 grade = "неудовлетворительно";
                 break;
             default:
-                grade = "родителей в институт";
+                grade = "отлично";
         }
         System.out.println("Преподаватель " + this.name + " оценил студента с именем "
-                + nameOfStudent + " по предмету " + this.object + " на оценку " + grade);
-
-        return nameOfStudent;
-
+                + student + " по предмету " + this.object + " на оценку " + grade);
     }
 }
 class Student {

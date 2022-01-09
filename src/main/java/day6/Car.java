@@ -45,12 +45,7 @@ public class Car {
     }
 
     public int yearDifference(int inputYear) {
-        if(inputYear < 0) System.out.println("Введите корректный год");
-        else  {
-            inputYear = this.year - inputYear;
-            System.out.print(inputYear);
-        }
-        return inputYear;
+        return Math.abs(inputYear - year);
     }
 
     public void setYearOfCar(int yearOfCar) {

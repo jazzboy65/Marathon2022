@@ -60,10 +60,8 @@ public class Airplane {
                 + this.length + ", вес: " + this.weight + ", количество топлива в баке: " + this.fuel);
     }
 
-    int fillUp(int n) {
-        if (n < 0) System.out.println("Введите положительное число");
-        if (n >= 0) fuel += n;
-        return fuel;
+    public void fillUp(int n) {
+        fuel += n;
     }
     public static void compareAirplanes(Airplane a1,Airplane a2) {
         if(a1.length > a2.length) {

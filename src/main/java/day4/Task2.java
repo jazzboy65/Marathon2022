@@ -6,7 +6,7 @@ public class Task2 {
     public static void main(String[] args) {
         int[] arr = new int[100];
         Random rand = new Random();
-        int max = 0, min = 10000, countZero = 0, sumZero = 0;
+        int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE, countZero = 0, sumZero = 0;
         for (int i = 0; i < arr.length; i++)
             arr[i] = rand.nextInt(10000);
         for (int num : arr) {

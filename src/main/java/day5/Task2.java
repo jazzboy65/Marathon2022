@@ -9,26 +9,26 @@ public class Task2 {
 }
 
 class Motorbike {
-    private final String MODEL;
-    private final String COLOUR;
-    private final int YEAR;
+    private final String model;
+    private final String colour;
+    private final int year;
 
     public Motorbike(String model, String colour, int year) {
-        this.MODEL = model;
-        this.COLOUR = colour;
-        this.YEAR = year;
+        this.model = model;
+        this.colour = colour;
+        this.year = year;
     }
 
     public String getModel() {
-        return MODEL;
+        return model;
     }
 
     public String getColour() {
-        return COLOUR;
+        return colour;
     }
 
     public int getYear() {
-        return YEAR;
+        return year;
     }
     void motorbikeInfo() {
         System.out.println("Модель мотоцикла: " + this.getModel() + "\nЦвет мотоцикла: " + this.getColour() + "\nГод выпуска мотоцикла: " + this.getYear());

@@ -27,8 +27,7 @@ public class Task1 {
             }
             if (arr[i] % 2 == 0) {
                 even++;
-            }
-            if (arr[i] % 2 != 0) {
+            } else {
                 notEven++;
             }
         }
