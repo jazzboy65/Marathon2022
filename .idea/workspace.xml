@@ -4,13 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa141ea3-3aeb-403c-a5cc-52252823d76f" name="Changes" comment="" />
+    <list default="true" id="fa141ea3-3aeb-403c-a5cc-52252823d76f" name="Changes" comment="complete day12 tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13/MessageDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day13/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day12/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day12/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day12/task4/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day12/task4/MusicBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day12/task5/MusicBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day12/task5/MusicBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day12/task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day12/task5/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day13/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day13/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13MessageDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13MessageDatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day13/Day13UserTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20P9qedSPthhibXvWr2W3KV9zkV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,6 +48,86 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.Task4">
+    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.Task1" />
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.Task1" />
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day12.task4.Task4" />
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day13MessageDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day13.Day13MessageDatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day13UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="Tests.day13.Day13UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task1 (1)" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="JUnit.Day13UserTest" />
+        <item itemvalue="JUnit.Day13MessageDatabaseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -30,5 +139,16 @@
       <updated>1635935549011</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

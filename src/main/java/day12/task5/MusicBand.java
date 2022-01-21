@@ -36,13 +36,11 @@ public class MusicBand {
         return name;
     }
 
-    public static void transferMembers(MusicBand m1,MusicBand m2) {
-           for (MusicArtist members: m1.getMembers()) {
-               m2.getMembers().add(members);
-           }
+    public static void transferMembers(MusicBand m1, MusicBand m2) {
+        m2.getMembers().addAll(m1.getMembers());
 
-            m1.getMembers().clear();
-        }
+        m1.getMembers().clear();
+    }
 
 
     public void printMembers() {

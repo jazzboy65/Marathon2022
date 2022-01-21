@@ -9,7 +9,7 @@ public class Task5 {
         List<MusicArtist> members1 = new ArrayList<>();
         MusicBand m1 = new MusicBand("Bon Jovi", 1983,members1);
 
-        members1.add(new MusicArtist("Jon BonJovi",53));
+        members1.add(new MusicArtist("Jon Bon Jovi",53));
         members1.add(new MusicArtist("David Bryan",67));
         members1.add(new MusicArtist("Tico Torres",67));
         members1.add(new MusicArtist("Phil X",59));

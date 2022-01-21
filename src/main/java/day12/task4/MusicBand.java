@@ -16,7 +16,7 @@ public class MusicBand {
     private final List<String> members;
 
 
-    public MusicBand(String name, int year,List<String> members) {
+    public MusicBand(String name, int year, List<String> members) {
         this.name = name;
         this.year = year;
         this.members = members;
@@ -34,13 +34,11 @@ public class MusicBand {
         return name;
     }
 
-    public static void transferMembers(MusicBand m1,MusicBand m2) {
-           for (String members: m1.getMembers()) {
-               m2.getMembers().add(members);
-           }
+    public static void transferMembers(MusicBand m1, MusicBand m2) {
+        m2.getMembers().addAll(m1.getMembers());
 
-            m1.getMembers().clear();
-        }
+        m1.getMembers().clear();
+    }
 
 
     public void printMembers() {

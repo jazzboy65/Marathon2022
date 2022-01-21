@@ -16,7 +16,7 @@ public class Task1 {
         System.out.println(auto);
 
         auto.add(2,"Maserati");
-        auto.remove(5);
+        auto.remove(0);
 
         System.out.println(auto);
 
