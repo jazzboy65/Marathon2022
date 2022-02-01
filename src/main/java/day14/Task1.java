@@ -19,7 +19,7 @@ public class Task1 {
             String[] stringNumbers = sc.nextLine().split(" ");
 
             if (stringNumbers.length != 10) {
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("Некорректный входной файл");
             }
 
             int sum = 0;
@@ -32,7 +32,7 @@ public class Task1 {
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         } catch (IllegalArgumentException e) {
-            System.out.println("Некорректный входной файл");
+            System.out.println(e.getMessage());
         }
     }
 }

@@ -28,7 +28,7 @@ public class Task3 {
                 String[] human = x.split(" ");
 
                 if (Integer.parseInt(human[1]) < 0) {
-                    throw new IllegalArgumentException();
+                    throw new IllegalArgumentException("Некорректный входной файл");
                 }
 
                 people.add(new Person(human[0], Integer.parseInt(human[1])));
@@ -41,7 +41,7 @@ public class Task3 {
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
         } catch (IllegalArgumentException e) {
-            System.out.println("Некорректный входной файл");
+            System.out.println(e.getMessage());
         }
         return null;
 
