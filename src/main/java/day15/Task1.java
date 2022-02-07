@@ -24,7 +24,7 @@ public class Task1 {
             }
         } catch (FileNotFoundException e) {
             System.out.println("Входной файл не найден");
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
     }
