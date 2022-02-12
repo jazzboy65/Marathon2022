@@ -13,12 +13,12 @@ public class Task2 {
 
         Random random = new Random();
 
-
+        printResult(outputFile2);
 
         try {
             PrintWriter pw1 = new PrintWriter(outputFile1);
 
-            for(int i = 0;i < 1000; i++) {
+            for (int i = 0; i < 1000; i++) {
                 pw1.println(random.nextInt(100));
             }
 
@@ -31,11 +31,11 @@ public class Task2 {
             int sum = 0;
 
             while (sc1.hasNext()) {
-                sum+= sc1.nextInt();
+                sum += sc1.nextInt();
                 counter++;
 
-                if(counter == 20) {
-                    pw2.println(sum/20.0);
+                if (counter == 20) {
+                    pw2.println(sum / 20.0);
 
                     sum = 0;
                     counter = 0;
@@ -49,6 +49,7 @@ public class Task2 {
             System.out.println("Выходной файл не создан");
         }
     }
+
     public static void printResult(File file) {
 
         try {
@@ -57,7 +58,7 @@ public class Task2 {
             double result = 0;
 
             while (sc2.hasNext()) {
-                result+= Double.parseDouble(sc2.next());
+                result += Double.parseDouble(sc2.next());
             }
 
             System.out.println((int) result);
