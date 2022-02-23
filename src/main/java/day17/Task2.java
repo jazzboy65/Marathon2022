@@ -13,6 +13,14 @@ public class Task2 {
                 {ChessPiece.EMPTY,ChessPiece.EMPTY,ChessPiece.EMPTY,ChessPiece.EMPTY,ChessPiece.EMPTY,ChessPiece.ROOK_WHITE,ChessPiece.KING_WHITE,ChessPiece.EMPTY}
         });
 
+//        ChessBoard chessBoard1 = new ChessBoard(new ChessPiece[10][10]);
+//
+//        chessBoard1.chessBoardDefault();
+//
+//        chessBoard1.arrangementOfFigures(ChessPiece.KING_WHITE,1,1);
+//        chessBoard1.print();
+
+
         chessBoard.print();
 
     }
