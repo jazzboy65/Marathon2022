@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa141ea3-3aeb-403c-a5cc-52252823d76f" name="Changes" comment="complete day17 tasks">
+    <list default="true" id="fa141ea3-3aeb-403c-a5cc-52252823d76f" name="Changes" comment="complete day18 tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day17/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day17/ChessBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day17/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day17/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day18/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day18/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day18/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day18/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day18/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day18/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day18/Day18Task2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day17/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day17/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day18/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/Task2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day19/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day19/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day19/task2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day19/task2/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day19/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day19/task2/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day18/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/day18/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day18/Task3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day19/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/task2/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day19/task2/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day19/task2/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day19/task2/Task2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Task3">
+  <component name="RunManager" selected="Application.Task2">
+    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.Task1" />
+      <module name="JavaMarathon2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day14.Task1" />
       <module name="JavaMarathon2021" />
@@ -77,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day18.Task2" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.task2.Task2" />
       <module name="JavaMarathon2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day18.*" />
+          <option name="PATTERN" value="day19.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,21 +109,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day17Task2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaMarathon2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.day17" />
-      <option name="MAIN_CLASS_NAME" value="Tests.day17.Day17Task2Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1 (1)" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="JUnit.Day18Task2Test" />
-        <item itemvalue="Application.Task2 (1)" />
-        <item itemvalue="JUnit.Day17Task2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644677521049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete day18 tasks">
+      <created>1645626214525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645626214525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +210,7 @@
     <MESSAGE value="complete day15 tasks" />
     <MESSAGE value="complete day16 tasks" />
     <MESSAGE value="complete day17 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete day17 tasks" />
+    <MESSAGE value="complete day18 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete day18 tasks" />
   </component>
 </project>
